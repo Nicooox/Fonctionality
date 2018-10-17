@@ -1,0 +1,35 @@
+<html lang="fr" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="morpion.css">
+        <link rel="shortcut icon" href="tictactoe.png">
+    </head>
+    <header>
+      <h1>Tic Tac Toe : Que le meilleur gagne !</h1>
+    </header>
+    <body>
+      <p class="J1">Joueur 1 : </p>
+      <img src="cercle.png" alt="cercleJ1">
+      <p class="J2">Joueur 2 : </p>
+      <img src="croix.png" alt="croixJ2">
+      <div class="morpion">
+        <div class="row">
+          <div class="cell" data-cell=1></div>
+          <div class="cell" data-cell=2></div>
+          <div class="cell" data-cell=3></div>
+        </div>
+        <div class="row">
+          <div class="cell" data-cell=4></div>
+          <div class="cell" data-cell=5></div>
+          <div class="cell" data-cell=6></div>
+        </div>
+        <div class="row">
+          <div class="cell" data-cell=7></div>
+          <div class="cell" data-cell=8></div>
+          <div class="cell" data-cell=9></div>
+        </div>
+    <script src="morpion.js"></script>
+    <input type="button" class="button" onclick='window.location.reload(false)' value="Start Again"/>
+    </body>
+</html>
